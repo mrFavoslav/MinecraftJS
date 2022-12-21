@@ -10,6 +10,7 @@ const fullscreenst = optionsuser.fullscreen || optionsdef.fullscreendef;
 
 const createWindow = () => {
   const mainWindow = new BrowserWindow({
+    title: "MinecraftJS",
     width: parseInt(res1),
     height: parseInt(res2),
     webPreferences: {
